@@ -1,0 +1,27 @@
+h1{
+  color:red;
+  font-style: italic;
+}
+
+img:hover{
+  background-color: gold;
+}
+/***Id and class selector can overwrite tag selector***/
+/*class name can be used at multiple places*/
+/**Any Html element element can have more than one class but have only single Id**/
+.meat
+{
+  background-color: red;
+
+}
+.fruit{
+  background-color: yellow;
+}
+.circular{
+  border-radius: 100%;
+}
+/* heading , an Id can be used only at one place*/
+#heading{
+  font-style: oblique;
+  color: blue;
+}
